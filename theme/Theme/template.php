@@ -2,3 +2,13 @@
 
 include('header.php'); 
 ?>
+
+<!-- page content-->
+<?php
+
+    get_page_content();
+
+?>
+<!-- page content end-->
+
+<?php include('footer.php'); ?>
