@@ -4,11 +4,13 @@ include('header.php');
 ?>
 
 <!-- page content-->
-<?php
+<div class="content">
+    <?php
 
     get_page_content();
 
-?>
+    ?>
+</div>
 <!-- page content end-->
 
 <?php include('footer.php'); ?>
