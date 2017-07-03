@@ -1,0 +1,36 @@
+.slider-box {
+    position: relative;
+    width: 900px;
+    height: 530px;
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    width: 10000px;
+    height: 210px;
+}
+
+.slider img {
+    float: left;
+}
+
+.slider-box .prev,
+.slider-box .next {
+    position: absolute;
+    top: 500px;
+    display: block;
+    width: 29px;
+    height: 29px;
+    cursor: pointer;
+}
+
+.slider-box .prev {
+    left: 10px;
+    background: url(../images/slider/slider_controls.png) no-repeat 0 0;
+}
+
+.slider-box .next {
+    left: 40px;
+    background: url(../images/slider/slider_controls.png) no-repeat -29px 0;
+}
