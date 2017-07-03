@@ -1,0 +1,12 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+}
+
+.content {
+    margin: auto;
+    margin-top: 40px;
+    width: 900px;
+    background: rgba(200, 200, 200, .7);
+    min-height: 600px;
+}

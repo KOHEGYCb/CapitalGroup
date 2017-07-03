@@ -1,0 +1,10 @@
+.logo{
+/*    position: absolute;*/
+    margin: 0;
+    padding: 0;
+    margin-top: -38px;
+    left: 0;
+    width: 200px;
+    height: 38px;
+    background: url(../images/logo.png) rgba(0, 0, 0, .0);
+}
