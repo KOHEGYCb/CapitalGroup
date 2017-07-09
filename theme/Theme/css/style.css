@@ -1,6 +1,14 @@
 body {
+/*
     background-image: url(../images/background.jpg);
     background-size: 100%;
+*/
+    background:#494949 url(../images/background.jpg) top center no-repeat fixed;
+    background-size:cover;
+   -moz-background-size:cover;
+   -webkit-background-size:cover;
+   -o-background-size:cover;
+   width:100%;
 }
 
 .content {
@@ -9,4 +17,8 @@ body {
     width: 900px;
     background: rgba(200, 200, 200, .7);
     min-height: 600px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
 }
