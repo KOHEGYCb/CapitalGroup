@@ -1,36 +1,44 @@
 .slider-box {
+    top: -100px;
     position: relative;
     width: 900px;
-    height: 530px;
+    height: 540px;
     overflow: hidden;
+    background: #FFF;
+    z-index: 1;
 }
 
 .slider {
     position: relative;
     width: 10000px;
     height: 210px;
+    z-index: 1;
 }
 
 .slider img {
     float: left;
+    z-index: 1;
 }
 
 .slider-box .prev,
 .slider-box .next {
     position: absolute;
-    top: 500px;
+    top: 505px;
     display: block;
     width: 29px;
     height: 29px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .slider-box .prev {
     left: 10px;
     background: url(../images/slider/slider_controls.png) no-repeat 0 0;
+    z-index: 1;
 }
 
 .slider-box .next {
     left: 40px;
     background: url(../images/slider/slider_controls.png) no-repeat -29px 0;
+    z-index: 1;
 }
