@@ -1,0 +1,19 @@
+.content {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    width: 90%;
+    background: rgba(200, 200, 200, .7);
+    min-height: calc(100% - 38px);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    position: relative;
+    top: 38;
+    color: inherit;
+}
+.content>h2{
+    margin: 0;
+    padding: 0;
+}

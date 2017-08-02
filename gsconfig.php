@@ -13,120 +13,118 @@ if (basename($_SERVER['PHP_SELF']) == 'gsconfig.php') {
 }; 
 
 /*****************************************************************************/
-/** Ниже перечислены константы, которые можно использовать для настройки GetSimple */ 
+/** Below are constants that you can use to customize how GetSimple operates */ 
 
-# Настройка языка
- $LANG = 'ru_RU';
+# Extra salt to secure your password with. Default is empty for backwards compatibility.
+#define('GSLOGINSALT', 'your_unique_phrase');
 
-# Скопировать уникальные модификаторы (salt) для замены двух нижних констант можно здесь http://get-simple.info/api/security/
-# Позволяет производить дополнительное хеширование пароля администратора уникальным модификатором (salt) в качестве дополнительной меры безопасности системы
-# define('GSLOGINSALT', 'your_unique_phrase');
+# Turn off auto-generation of SALT and use a custom value. Used for cookies & upload security.
+#define('GSUSECUSTOMSALT', 'your_new_salt_value_here');
 
-# Отключает автоматическое генерирование уникального модификатора (salt) для применения пользовательской уникальной строки. Используется для cookie-файлов и безопасной загрузки файлов на сервер
-# define('GSUSECUSTOMSALT', 'your_new_salt_value_here');
+# Default thumbnail width of uploaded image
+define('GSIMAGEWIDTH', '200');
 
-# Ширина миниатюры загруженного изображения по умолчанию
- define('GSIMAGEWIDTH', '200');
+# Change the administrative panel folder name
+#define('GSADMIN', 'admin');
 
-# Изменить имя папки административной панели
-# define('GSADMIN', 'admin');
+# Turn on debug mode
+#define('GSDEBUG', TRUE);
 
-# Включите режим отладки
-# define('GSDEBUG', TRUE);
+# Ping search engines upon sitemap generation?
+define('GSDONOTPING', 1);
 
-# Оповещать поисковые системы при изменении карты сайта? Если хотите отключить оповещение, раскомментируйте строчку
-# define('GSDONOTPING', 1);
+# Turn off CSRF protection. Uncomment this if you keep receiving the error message "CSRF error detected..."
+#define('GSNOCSRF', TRUE);
 
-# Отключить CSRF защиту. Раскомментируйте строчку ниже, если вы продолжаете получать сообщение об ошибке "CSRF error detected..."
-# define('GSNOCSRF', TRUE);
+# Set override CHMOD mode
+#define('GSCHMOD', 0755);
 
-# Установите режим коррекции CHMOD
-# define('GSCHMOD', 0755);
+# Disable chmod operations
+# define('GSDOCHMOD',false);
 
-# Включить канонические перенаправления?
-# define('GSCANONICAL', 1);
+# Enable Canonical Redirects?
+#define('GSCANONICAL', 1);
 
-# Использовать Uploadify для загрузки файлов? При русскоязычном домене раскомментировать строчку ниже.
-# define('GSNOUPLOADIFY', 1);
+# Use Uploadify to upload files?
+#define('GSNOUPLOADIFY', 1);
 
-# высота WYSIWYG-редактора (default 500)
-# define('GSEDITORHEIGHT', '400');
+# WYSIWYG editor height (default 500)
+#define('GSEDITORHEIGHT', '400');
 
-# Настройки WYSIWYG-редактора, раскомментируйте строчку ниже (advanced, basic or [custom config]) 
-# define('GSEDITORTOOL', 'advanced');
+# WYSIWYG toolbars (advanced, basic or [custom config]) 
+#define('GSEDITORTOOL', 'advanced');
 
-# Язык WYSIWYG-редактора (default en), раскомменитровать строчку ниже, если хотите, чтобы язык отличался от языка, выбранного при установке CMS
-# define('GSEDITORLANG', 'en');
+# WYSIWYG editor language (default en)
+#define('GSEDITORLANG', 'en');
 
-# Установить адрес электронной почты для любых отсылаемых сообщений, сгенерированных GetSimple.
-# define('GSFROMEMAIL', 'noreply@get-simple.info');
+# WYSIWYG Editor Options
+#define('GSEDITOROPTIONS', '');
 
-# Автосохранение в edit.php. Значение интервала автосохранения в секундах
-# define('GSAUTOSAVE', 900);
+# Set email from address
+#define('GSFROMEMAIL', 'noreply@get-simple.info');
 
-# Включение внешнего API, ссылка на страницу с ключом будет показана на странице настроек - "API Конфигурация"
-#define('GSEXTAPI', 1); 
+# Autosave within edit.php. Value is the autosave interval in seconds
+#define('GSAUTOSAVE', 900);
 
+# Enable the External API to be shown on settings page 
+#define('GSEXTAPI', 1);
+	
 # Set PHP locale
 # http://php.net/manual/en/function.setlocale.php
- setlocale(LC_ALL, 'ru_RU.UTF8', 'ru.UTF8', 'ru_RU.UTF-8', 'ru.UTF-8', 'ru_RU', 'ru'); 
+#setlocale(LC_ALL, 'en_US');
 
-# Отключение загрузки внешних версий CDN скриптов (jQuery/jQueryUI)
-# define("GSNOCDN",true);
-
-# Отключение нумерации строк и подсветки синтаксиса редактора тем
-# define("GSNOHIGHLIGHT",true);
-
-# Определить по умолчанию часовой пояс сервера
+# Define default timezone of server, accepts php timezone string
+# valid timeszones can be found here http://www.php.net/manual/en/timezones.php
 # define('GSTIMEZONE', 'America/Chicago');
 
-# Подавление PHP ошибок в режиме отладки не будет срабатывать, несмотря на настройки php.ini
- define('SUPPRESSERRORS',true);
+# Disable loading of external CDN versions of scripts (jQuery/jQueryUI)
+#define("GSNOCDN",true);
 
-# Отключение проверки веб-сервера Apache, по умолчанию false
-# define('GSNOAPACHECHECK', true);
+# Disable Codemirror theme editor
+#define("GSNOHIGHLIGHT",true);
 
-# Отключение проверки верси CMS
-# define('GSNOVERCHECK', true);
+# Forces suppression of php errors when GSDEBUG is false, despite php ini settings
+define('GSSUPPRESSERRORS',true);
 
-# Включить альтернативные стили админпанели
-# GSSTYLE можно разделять запятыми 
-# Примечание: стили кэшируются
-# GSSTYLEWIDE = ширина в зависимости от разрешения экрана
+# Disable check for Apache web server, default false
+#define('GSNOAPACHECHECK', true);
+
+# Disable header version check
+#define('GSNOVERCHECK', true);
+
+# Enable alternate admin styles, current style constants are
+# GSSTYLE can be a comma delimied list of flags
+# note: stylesheets are cached, flush cache after changing
 #
-# Стили:
-# GSSTYLEWIDE = ширина в зависимости от разрешения экрана
-# GSSTYLE_SBFIXED = фиксация сайдменю
+# style flags:
+# GSSTYLEWIDE = wide fluid
+# GSSTYLE_SBFIXED = fixed sidemenu
 # 
 # eg. 
 # define('GSSTYLE',GSSTYLE_SBFIXED);
 # define('GSSTYLE',GSSTYLEWIDE);
-# define('GSSTYLE',implode(',',array(GSSTYLEWIDE,GSSTYLE_SBFIXED)));
+#define('GSSTYLE',implode(',',array(GSSTYLEWIDE,GSSTYLE_SBFIXED)));
 
-# Отключить генерацию карты сайта
+# Disable Sitemap generation and menu items
 # define('GSNOSITEMAP',true);
 
-# Отключение смены языков в плагине I18n
-# define('I18N_SINGLE_LANGUAGE', true);
-
-# Игнорировать язык браузера пользователя
-# define('I18N_IGNORE_USER_LANGUAGE',true);
-
-# Включение автоматического описания из первого абзаца страницы в мета-тег description, если вам лень заполнять это поле самим
+# Enable auto meta descriptions from content excerpts when empty
 # define('GSAUTOMETAD',true);
 
-# Установка языка по умолчанию при отсутствии перевода каких-либо строк в языковом файле CMS пользователя, 
-# по умолчанию выбран 'en_US', раскомментируйте строчку ниже, чтобы отключить
+# Set default language for missing lang token merge, 
+# accepts a lang string, default is 'en_US', false to disable
 # define('GSMERGELANG',false);
 
-# GS запрещает загрузку базовых страниц во фрейм,
-# чтобы предотвратить попытки кликджекинга (clickjacking)
-# сайт нельзя проверить на эмуляторах, таких как http://www.responsinator.com/
-# если хотите проверить сайт на эмуляторе, раскомментируйте строчку ниже
-# define('GSNOFRAME',false); # включить загрузку во фрейм
-# есть возможность отключать загрузку во фрейм для фронтенда и/или для бэкенда (GSFRONT, GSBACK or GSBOTH)
-# define('GSNOFRAME',GSBOTH); # отключить загрузку во фрейм и для фронтенда и для бэкенда
+# GS can prevent backend or frontend pages from being loaded inside a frame 
+# this is done by sending an x-frame-options header, and helps protect against clickjacking attacks
+# This is enabled by default for backend pages (true/GSBACK)
+# setting GSNOFRAME to (false) will disable this behavior
+# You can also customize this by passing the gs location definitions,
+# GSFRONT, GSBACK or GSBOTH definitions enable this for front and/or backends
+# define('GSNOFRAME',GSBOTH); # prevent in frames ALWAYS
+#define('GSNOFRAME',false);  # prevent in frames NEVER
 
-# GS может форматировать свои XML файлы перед их сохранением и придавать им удобочитаемый вид
+# GS can format its xml files before saving them if you require human readable source for them
 # define('GSFORMATXML',true);
+
 ?>

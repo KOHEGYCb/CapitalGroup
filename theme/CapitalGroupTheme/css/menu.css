@@ -1,0 +1,140 @@
+.menu {
+    padding: 0;
+    min-width: 38px;
+    z-index: 10000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.menu>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 38px;
+    position: relative;
+    background: rgba(180, 180, 180, .9);
+    transition-duration: .3s;
+    z-index: 10000;
+    left: 200px;
+    width: 100%;
+}
+
+.menu>ul>li {
+    float: left;
+    padding: 0;
+    position: relative;
+    height: 38px;
+    max-width: 200px;
+    margin: 0 5px;
+    transition-duration: .3s;
+    z-index: 10000;
+}
+
+.menu>ul>li:after {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: -5px;
+    content: "";
+    height: 38px;
+    width: 2px;
+    background: black;
+}
+.menu>ul>li:last-child {
+    border-right: 2px solid black;
+}
+
+.menu>ul>li>a {
+    text-align: center;
+    height: 33px;
+    margin: auto;
+    padding: 0 5px;
+    left: 0;
+    padding-top: 5px;
+    width: inherit;
+    max-width: 200px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    position: relative;
+}
+
+.menu>ul>li>ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    opacity: 0;
+    transition-duration: .3s;
+    background: rgba(230, 230, 230, .5);
+    overflow: hidden;
+    height: 0;
+}
+
+.menu>ul>li>ul>li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    height: 38px;
+    margin-bottom: 2px;
+    transition-duration: .3s;
+}
+
+.menu>ul>li>ul>li:last-child{
+    border-bottom: 2px solid black;
+}
+
+.menu>ul>li>ul>li>a {
+    text-align: center;
+    height: 43px;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: -5px;
+    padding-top: 5px;
+    position: relative;
+    text-decoration: none;
+    color: #222;
+    display: block;
+}
+
+.menu>ul>li:before {
+    position: absolute;
+    top: 36px;
+    content: '';
+    display: block;
+    margin: 0 50%;
+    width: 0%;
+    height: 2px;
+    background: #000;
+}
+
+.menu>ul>li:hover:before {
+    animation-name: aRise;
+    animation-duration: 800ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aRise {
+    100% {
+        width: 100%;
+        margin: 0 0%;
+    }
+}
+
+.menu>ul>li:hover>ul {
+    opacity: 1;
+    height: auto;
+}
+
+.menu>ul>li:hover {
+    background: rgba(150, 150, 150, .5);
+}
+
+.menu>ul>li>ul>li:hover {
+    background: rgba(200, 200, 200, .5);
+}

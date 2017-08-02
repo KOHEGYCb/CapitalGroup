@@ -26,7 +26,7 @@ register_plugin(
 	'innovation_show'  								# Function that displays content
 );
 
-$hidemenu = false;
+$hidemenu = true;
 
 # hooks
 # enable side menu is theme is innovation or on theme page and enabling innovation, handle plugin exec before global is set
@@ -39,25 +39,14 @@ if(	!$hidemenu || (
 
 $services = array(
 	'facebook',
-	'google-plus',
+	'googleplus',
 	'twitter',
-	'vk',
-	'odnoklassniki',
-	'pinterest',
-	'flickr',
-	'instagram',
-	'youtube',
-	'vimeo-square',
-	'github',
 	'linkedin',
 	'tumblr',
-	'digg',
-	'blogger',
-	'delicious',
-	'dribbble',
-	'livejournal',
-	'myspace',
-	'rss'
+	'instagram',
+	'youtube',
+	'vimeo',
+	'github'
 );
 
 # get XML data
@@ -115,7 +104,7 @@ function innovation_show() {
 			foreach($services as $var){
 				$value = '';
 				if(isset($innovation_data->$var)) $value = $innovation_data->$var;
-				echo '<p><label for="inn_'.$var.'" >' . i18n_r($thisfile_innov.'/'.strtoupper($var).'_URL') .'</label><input id="inn_'.$var.'" name="'.$var.'" class="text" value="'.$value.'" type="url" /></p>';
+				echo '<p><label for="inn_'.$var.'" >' . i18n($thisfile_innov.'/'.strtoupper($var).'_URL') .'</label><input id="inn_'.$var.'" name="'.$var.'" class="text" value="'.$value.'" type="url" /></p>';
 			}
 		?>
 

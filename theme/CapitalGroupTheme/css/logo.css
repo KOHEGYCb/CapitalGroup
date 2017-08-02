@@ -1,0 +1,11 @@
+.logo{
+/*    position: absolute;*/
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 38px;
+    background: url(../images/logo.png) rgba(180, 180, 180, .9);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
