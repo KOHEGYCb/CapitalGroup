@@ -1,0 +1,162 @@
+.menu {
+    /*    right: 0;*/
+    margin-top: 65px;
+    /*    border: 1px solid transparent;*/
+    border: 1px solid red;
+    /*    margin: 0;*/
+    float: right;
+    margin-right: 30px;
+    padding: 0;
+    /*    margin-right: ;*/
+    /*    margin-top: 3%;*/
+    min-width: 38px;
+    /*    float: right;*/
+    /*    position: absolute;*/
+    z-index: 10000;
+}
+
+.menu>ul {
+    margin: 0;
+    padding: 0;
+    /*    top: 50px;*/
+    /*    margin-right: 38px;*/
+    border: 1px solid gray;
+    list-style: none;
+    height: 38px;
+    float: right;
+    /*
+    margin-right: 7%;
+    margin-top: 3%;
+*/
+    display: flex;
+    position: relative;
+    background: rgba(180, 180, 180, .5);
+    transition-duration: .3s;
+    z-index: 10000;
+}
+
+.menu>ul>li {
+    /*    border-left: 1px solid yellow;*/
+    padding: 0;
+    position: relative;
+    height: 38px;
+    max-width: 200px;
+    margin: 0 5px;
+    transition-duration: .3s;
+    z-index: 10000;
+    /*    border: 1px solid red;*/
+}
+
+.menu>ul>li:after {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: -5px;
+    content: "";
+    height: 38px;
+    width: 2px;
+    background: black;
+}
+
+.menu>ul>li:last-child {
+    border-right: 2px solid black;
+}
+
+.menu>ul>li>a {
+    text-align: center;
+    height: 33px;
+    margin: auto;
+    padding: 0 5px;
+    left: 0;
+    padding-top: 5px;
+    width: inherit;
+    max-width: 200px;
+    /*    border: 1px solid green;*/
+    text-decoration: none;
+    color: #333;
+    display: block;
+    position: relative;
+}
+
+.menu>ul>li>ul {
+    /*    border: 1px solid aqua;*/
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /*    top: 18px;*/
+    margin-top: 0;
+    opacity: 0;
+    /*    opacity: 1;*/
+    transition-duration: .3s;
+    background: rgba(230, 230, 230, .5);
+    overflow: hidden;
+    height: 0;
+}
+
+.menu>ul>li>ul>li {
+    /*    border: 1px solid pink;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    height: 38px;
+    /*    width: 200px;*/
+    margin-bottom: 2px;
+    transition-duration: .3s;
+}
+
+.menu>ul>li>ul>li>a {
+    text-align: center;
+    height: 43px;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: -5px;
+    padding-top: 5px;
+    position: relative;
+    /*    width: 200px;*/
+    /*    border: 1px solid green;*/
+    text-decoration: none;
+    color: #333;
+    display: block;
+    /*    border: 1px solid black;*/
+}
+
+.menu>ul>li:before {
+    position: absolute;
+    top: 36px;
+    content: '';
+    display: block;
+    margin: 0 50%;
+    width: 0%;
+    height: 2px;
+    background: #000;
+}
+
+.menu>ul>li:hover:before {
+    animation-name: aRise;
+    animation-duration: 800ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aRise {
+    100% {
+        width: 100%;
+        margin: 0 0%;
+    }
+}
+
+.menu>ul>li:hover>ul {
+    opacity: 1;
+    height: auto;
+}
+
+.menu>ul>li:hover {
+    background: rgba(150, 150, 150, .5);
+}
+
+.menu>ul>li>ul>li:hover {
+    background: rgba(200, 200, 200, .5);
+}
