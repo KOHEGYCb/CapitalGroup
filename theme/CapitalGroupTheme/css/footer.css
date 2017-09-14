@@ -1,0 +1,30 @@
+.footer {
+    /*    border: 1px solid red;*/
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding: 0;
+    margin: 50px 0 0 0;
+    top: 38px;
+    background-color: #FFF;
+    border-top: 1px solid #777;
+}
+
+.footer ul {
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    list-style: none;
+    width: auto;
+    /*    border: 1px solid red;*/
+    align-content: center;
+    display: table;
+}
+
+.footer li {
+    width: 200px;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px 0 3px 0;
+    color: #aaa;
+}

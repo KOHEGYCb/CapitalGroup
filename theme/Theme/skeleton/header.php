@@ -15,3 +15,7 @@
 
 <body>
 
+    <?php 
+        include('logo.php'); 
+        include('menu.php'); 
+    ?>

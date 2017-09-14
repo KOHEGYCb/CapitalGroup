@@ -1,0 +1,189 @@
+.menu_content {
+    height: 38px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    top: 50px;
+    width: 85%;
+}
+
+.menu {
+    padding: 0;
+    min-width: 38px;
+    z-index: 10000;
+    position: absolute;
+    height: 38px;
+    width: 100%;
+    float: left;
+    transition-duration: .3s;
+    transition-property: background;
+    /*    left: 100px;*/
+    /*    border: 1px solid red;*/
+
+}
+.menu>span>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 38px;
+    position: relative;
+    background: rgba(220, 220, 220, .9);
+    transition-duration: .3s;
+    z-index: 10000;
+    display: table;
+    width: auto;
+    margin: 0 auto;
+    border-right: 2px solid black;
+    /*    border: 1px solid blue;*/
+}
+
+.menu>span>ul>li {
+    float: left;
+    padding: 0;
+    position: relative;
+    height: 38px;
+    max-width: 200px;
+    margin: 0 5px;
+    transition-duration: .3s;
+    z-index: 10000;
+/*
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+*/
+}
+
+.menu>span>ul>li:after {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: -5px;
+    content: "";
+    height: 38px;
+    width: 2px;
+    background: black;
+}
+
+.menu>span>ul>li:last-child {
+/*    border-right: 2px solid black;*/
+}
+
+.menu>span>ul>li>a {
+    text-align: center;
+    height: 33px;
+    margin: auto;
+    padding: 0 5px;
+    left: 0;
+    padding-top: 5px;
+    width: inherit;
+    max-width: 200px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    position: relative;
+}
+
+.menu>span>ul>li>ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    opacity: 0;
+    transition-duration: .3s;
+    background: rgba(230, 230, 230, .8);
+    overflow: hidden;
+    height: 0;
+}
+
+.menu>span>ul>li>ul>li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    height: 38px;
+    margin-bottom: 2px;
+    transition-duration: .3s;
+}
+
+.menu>span>ul>li>ul>li:last-child {
+    border-bottom: 2px solid black;
+}
+
+.menu>span>ul>li>ul>li>a {
+    text-align: center;
+    height: 43px;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: -5px;
+    padding-top: 5px;
+    position: relative;
+    text-decoration: none;
+    color: #222;
+    display: block;
+}
+
+.menu>span>ul>li:before {
+    position: absolute;
+    top: 36px;
+    content: '';
+    display: block;
+    margin: 0 50%;
+    width: 0%;
+    height: 2px;
+    background: #000;
+}
+
+
+.menu>span>ul>.current::before,
+.menu>span>ul>.currentpath::before{
+/*    border-bottom: 2px solid black;*/
+    animation-name: aRise;
+    animation-duration: 800ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+
+.menu>span>ul>li:hover:before {
+    animation-name: aRise;
+/*    animation-delay: .3s;*/
+    animation-duration: 800ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aRise {
+    100% {
+        width: 100%;
+        margin: 0 0%;
+    }
+}
+
+.menu>span>ul>li:hover>ul {
+    opacity: 1;
+    height: auto;
+}
+
+.menu>span>ul>li:hover {
+    background: rgba(180, 180, 180, .8);
+}
+
+.menu>span>ul>li>ul>li:hover {
+    background: rgba(180, 180, 180, .8);
+}
+
+#nav.fixed {
+    padding: 0;
+    min-width: 38px;
+    z-index: 10000;
+    position: fixed;
+    /*    width: calc(85% - 200px);*/
+    height: 38px;
+    width: 85%;
+    float: left;
+    top: 0;
+    background: rgba(220, 220, 220, 1);
+    transition-duration: .3s;
+    transition-property: background;
+}

@@ -1,10 +1,10 @@
 <?php
 /**
- * Русский перевод GetSimple CMS
+ * Russian Language File | Русский языковой файл
  *
- * Revision:		май 2014
- * Version:			GetSimple 3.3.х
- * Traductors: 	    Олег Светлов http://getsimplecms.ru/
+ * Date:			26.05.2016
+ * Version:			GetSimple 3.3.10 и выше
+ * Translate: 		        Vadim Mikheev (http://nserver.ru/)
  *
  * @package GetSimple
  * @subpackage Language
@@ -28,20 +28,20 @@ $i18n = array(
 "EMAIL_COMPLETE"		=>	"Установка завершена",
 "EMAIL_USERNAME"		=>	"Ваше имя пользователя",
 "EMAIL_PASSWORD"		=>	"Ваш пароль",
-"EMAIL_LOGIN"			=>	"Вход в панель управления",
+"EMAIL_LOGIN"			=>	"Панель управления",
 "EMAIL_THANKYOU"		=>	"Спасибо за использование",
 "NOTE_REGISTRATION"		=>	"Ваши регистрационные данные высланы на",
-"NOTE_REGERROR"			=>	"<b>Ошибка:</b> Не удалось отправить Ваши регистрационные данные по почте. Пожалуйста, запомните пароль ниже",
+"NOTE_REGERROR"			=>	"<b>Ошибка:</b> Не удалось отправить Ваши регистрационные данные по почте. Пожалуйста запомните пароль ниже",
 "NOTE_USERNAME"			=>	"Имя пользователя",
 "NOTE_PASSWORD"			=>	"Пароль",
 "INSTALLATION"			=>	"Установка",
 "LABEL_WEBSITE"			=>	"Название сайта",
 "LABEL_BASEURL"			=>	"Основной URL сайта",
-"LABEL_SUGGESTION"		=>	"Совет",
-"LABEL_USERNAME"		=>	"Имя пользователя",
+"LABEL_SUGGESTION"		=>	"Пример",
+"LABEL_USERNAME"		=>	"Логин",
+"LABEL_DISPNAME"		=>	"Ваше имя",
 "LABEL_EMAIL"			=>	"E-mail",
 "LABEL_INSTALL"			=>	"Установить!",
-"LABEL_DISPNAME"		=>	"Ваше имя (любой язык)",
 "SELECT_LANGUAGE"		=>  "Выберите язык",
 "CONTINUE_SETUP" 		=>  "Продолжить установку",
 "DOWNLOAD_LANG" 		=>  "Загрузить доп. языки",
@@ -56,7 +56,7 @@ $i18n = array(
 "EDITPAGE_TITLE"		=>	"Редактировать",
 "VIEWPAGE_TITLE"		=>	"Просмотреть",
 "DELETEPAGE_TITLE"		=>	"Удалить",
-"PAGE_MANAGEMENT"		=>	"Управление страницами",
+"PAGE_MANAGEMENT"		=>	"Страницы",
 "TOGGLE_STATUS"			=>	"Вкл/выкл статус",
 "TOTAL_PAGES"			=>	"(кол-во страниц)",
 "ALL_PAGES"				=>	"Все страницы",
@@ -77,7 +77,7 @@ $i18n = array(
 "PAGE_OPTIONS"			=>	"Свойства",
 "TOGGLE_EDITOR"			=>	"Вкл/выкл редактор",
 "SLUG_URL"				=>	"Постоянная ссылка",
-"TAG_KEYWORDS"			=>	"Теги, ключевые слова",
+"TAG_KEYWORDS"			=>	"Тэги, ключевые слова",
 "PARENT_PAGE"			=>	"Родительская страница",
 "TEMPLATE"				=>	"Шаблон",
 "KEEP_PRIVATE"			=>	"Сделать приватной?",
@@ -93,12 +93,13 @@ $i18n = array(
 "OR"					=>	"или",
 "SAVE_AND_CLOSE"		=> "Сохранить и закрыть",
 "PAGE_UNSAVED"			=>	"Страница содержит несохраненные изменения",
+
 /* 
  * For: upload.php
 */
 "ERROR_UPLOAD"			=>	"Проблема с загрузкой файлов",
 "FILE_SUCCESS_MSG"		=>	"Файл успешно размещен в",
-"FILE_MANAGEMENT"		=>	"Каталог файлов",
+"FILE_MANAGEMENT"		=>	"Файлы",
 "UPLOADED_FILES"		=>	"Загруженные файлы",
 "SHOW_ALL"				=>	"Показать все",
 "VIEW_FILE"				=>	"Просмотр файла",
@@ -118,6 +119,7 @@ $i18n = array(
 "PASSWORD"				=>	"Пароль",
 "FORGOT_PWD"			=>	"Забыли пароль?",
 "CONTROL_PANEL"			=>	"Панель управления",
+
 /* 
  * For: navigation.php
 */
@@ -128,7 +130,7 @@ $i18n = array(
  * For: theme-edit.php
 */
 "TEMPLATE_FILE" 		=> 	"Шаблон <b>%s</b> был успешно изменен!",
-"THEME_MANAGEMENT" 		=> 	"Управление темами",
+"THEME_MANAGEMENT" 		=> 	"Темы",
 "EDIT_THEME" 			=> 	"Редактировать тему",
 "EDITING_FILE" 			=> 	"Редактируемый файл",
 "BTN_SAVECHANGES" 		=> 	"Сохранить",
@@ -144,10 +146,12 @@ $i18n = array(
 "ERROR" 				=> 	"Ошибка",
 "BTN_SAVESETTINGS" 		=> 	"Сохранить изменения",
 "VIEW_FAILED_LOGIN"		=> 	"Просмотреть ошибки авторизации",
+
+
 /* 
  * For: log.php
 */
-"MSG_HAS_BEEN_CLR" 		=> 	" был очищен",
+"MSG_HAS_BEEN_CLR" 		=> 	"был очищен",
 "LOGS" 					=> 	"событий",
 "VIEWING" 				=> 	"Просмотр",
 "LOG_FILE" 				=> 	"лог файла",
@@ -159,8 +163,7 @@ $i18n = array(
 /* 
  * For: backup-edit.php
 */
-
-"BAK_MANAGEMENT"		=>	"Управление бэкапом",
+"BAK_MANAGEMENT"		=>	"Резервное копирование",
 "ASK_CANCEL"			=>	"Отменить",
 "ASK_RESTORE"			=>	"Восстановить",
 "ASK_DELETE"			=>	"Удалить",
@@ -170,6 +173,7 @@ $i18n = array(
 "NO"					=>	"Нет",
 "DATE"					=>	"Дата",
 "PERMS"							=>  "Перманент",
+
 /* 
  * For: components.php
 */
@@ -182,7 +186,7 @@ $i18n = array(
 /* 
  * For: sitemap.php
 */
-"SITEMAP_CREATED"		=>	"Карта сайта создана! Мы так же успешно пинговали 4 поисковика",
+"SITEMAP_CREATED"		=>	"Карта сайта создана! Мы так же успешно пинговали 5 поисковиков",
 "SITEMAP_ERRORPING"		=>	"Карта сайта создана, но произошла ошибка с пингом одного или более поисковиков",
 "SITEMAP_ERROR"			=>	"Карта сайта не может быть сгенерирована",
 "SITEMAP_WAIT"			=>	"<b>Подождите:</b> Создается карта сайта",
@@ -209,7 +213,6 @@ $i18n = array(
 /* 
  * For: settings.php
 */
-
 "GENERAL_SETTINGS"		=>	"Настройки системы",
 "WEBSITE_SETTINGS"		=>	"Настройки сайта",
 "LOCAL_TIMEZONE"		=>	"Часовой пояс",
@@ -222,13 +225,13 @@ $i18n = array(
 "NEW_PASSWORD"			=>	"Новый пароль",
 "CONFIRM_PASSWORD"		=>	"Подтвердить пароль",
 "PASSWORD_NO_MATCH"		=>	"Пожалуйста, введите одинаковые пароли в обоих полях",
-
-"PERMALINK" => "Настройка ЧПУ",
-"MORE" => "Узнать больше",
-"HELP" => "Помощь",
-"FLUSHCACHE"        =>  "Очистить кэш",
-"FLUSHCACHE-SUCCESS"=>  "Кэш успешно очищен",
+"PERMALINK"				=> "Настройка ЧПУ",
+"MORE"					=> "Другие",
+"HELP"					=> "Помощь",
+"FLUSHCACHE"			=>  "Очистить кэш",
+"FLUSHCACHE-SUCCESS"	=>  "Кэш успешно очищен",
 "DISPLAY_NAME"			=>  "Имя для публичного показа, не ваш логин",
+
 /* 
  * For: health-check.php
 */
@@ -306,9 +309,9 @@ $i18n = array(
  * For: sidebar-support.php
 */
 "SIDE_SUPPORT_LOG"		=>	"Настройки и логи",
-"SIDE_VIEW_LOG"			=>	"Просмотр логов",
 "SIDE_HEALTH_CHK"		=>	"Информация о сайте",
 "SIDE_DOCUMENTATION"	=>	"Документация",
+"SIDE_VIEW_LOG"			=>	"Просмотр логов",
 
 /* 
  * For: sidebar-theme.php
@@ -318,7 +321,6 @@ $i18n = array(
 "SIDE_COMPONENTS"		=>	"Редактировать компоненты",
 "SIDE_EDIT_THEME"		=>	"Редактировать тему",
 "SIDE_CHOOSE_THEME"		=>	"Выбрать тему",
-
 
 /* 
  * For: sidebar-pages.php
@@ -382,16 +384,17 @@ $i18n = array(
 /* 
  * For: login_functions.php
 */
-"FILL_IN_REQ_FIELD"		=>	"Пожалуйста, заполните все обязательные поля",
-"LOGIN_FAILED"			=>	"Не удалось авторизироваться. Пожалуйста, проверьте имя пользователя и пароль",
+"FILL_IN_REQ_FIELD"		=>	"Пожалуйста заполните все обязательные поля",
+"LOGIN_FAILED"			=>	"Не удалось авторизироваться. Пожалуйста проверьте имя пользователя и пароль",
 
 /* 
  * For: Date Format
 */
-"DATE_FORMAT"									=>	"d.m.Y", //please keep short
-"DATE_AND_TIME_FORMAT"				=>	"d.m.Y - G:i ", //date and time
+"DATE_FORMAT"			=>	"d.m.Y", //please keep short
+"DATE_AND_TIME_FORMAT"	=>	"d.m.Y - G:i ", //date and time
+
 /* 
- * For: welcome.php
+ * For: support.php
 */
 "WELCOME_MSG"			=>	"Благодарим Вас за использование GetSimple CMS!",
 "WELCOME_P"				=>	"GetSimple CMS &mdash; с помощью этой системы Вы сможете легко управлять Вашим сайтом благодаря простому, интуитивно понятному интерфейсу и легкой шаблонной системе.",
@@ -400,12 +403,14 @@ $i18n = array(
 /* 
  * For: image.php
 */
+
 "CURRENT_THUMBNAIL" 	=>  "Миниатюра",
 "RECREATE" 				=>  "создать заново",
 "CREATE_ONE" 			=>  "Создать миниатюру",
 "IMG_CONTROl_PANEL" 	=>  "Управление изображениями",
 "ORIGINAL_IMG" 			=>  "Изображение",
 "PROSMOTR" 			    =>  "Просмотр",
+"CLIPBOARD_INSTR" 	    =>  "Выбрать все",
 "CREATE_THUMBNAIL" 		=>  "Создать миниатюру",
 "CROP_INSTR_NEW" 		=> "Удерживать <em>ctrl-В</em> для квадрата, в Мозилле и Опере не работает",
 "SELECT_DIMENTIONS" 	=>  "Размеры выделенного фрагмента",
@@ -414,18 +419,22 @@ $i18n = array(
 "HTML_THUMBNAIL" 		=>  "HTML код миниатюры",
 "LINK_THUMBNAIL" 		=>  "Ссылка на миниатюру",
 "HTML_THUMB_ORIG" 		=>  "HTML код миниатюры-изображения",
+
 /* 
  * For: plugins.php
 */
 
-"PLUGINS_MANAGEMENT"	=>  "Установленные плагины",
-"PLUGINS_INSTALLED" 	=>  "(кол-во плагинов)",
-"SHOW_PLUGINS"			=>  "Каталог плагинов",
+"PLUGINS_MANAGEMENT"	=>  "Плагины",
+"PLUGINS_INSTALLED" 	=>  "установленных плагинов",
+"PLUGIN_DISABLED"		=> "Плагин отключен",
+"SHOW_PLUGINS"			=>  "Обзор плагинов",
 "PLUGIN_NAME" 			=>  "Название",
 "PLUGIN_DESC" 			=>  "Описание",
 "PLUGIN_VER" 			=>  "Версия",
-"PLUGIN_DISABLED"       => "Плагин отключен",
 "PLUGIN_UPDATED"		=> "Плагин обновлен",
+
+
+
 /***********************************************************************************
  * SINCE Version 3.0
 ***********************************************************************************/
@@ -434,7 +443,7 @@ $i18n = array(
  * For: setup.php
  */
 
-"ROOT_HTACCESS_ERROR" => "Не удалось создать .htaccess в корне сайта! Пожалуйста, скопируйте <b>%s</b> файл <b>.htaccess</b> и поменяйте <code>%s</code> на <code>%s</code>",
+"ROOT_HTACCESS_ERROR" => "Не удалось создать .htaccess в корне сайта! Пожалуйста скопируйте <b>%s</b> файл <b>.htaccess</b> и поменяйте <code>%s</code> на <code>%s</code>",
 "REMOVE_TEMPCONFIG_ERROR" => "Не удалось удалить <b>%s</b>! Пожалуйста, сделайте это вручную.",
 "MOVE_TEMPCONFIG_ERROR" => "Не удалось переименовать <b>%s</b> to <b>%s</b>! Не удалось переименовать.",
 "KILL_CANT_CONTINUE" => "Можете не продолжать. Пожалуйста, исправьте ошибки и попробуйте еще раз.",
@@ -445,6 +454,7 @@ $i18n = array(
  * Misc Cleanup Work
  */
  
+ # new to 3.0 
 "HOMEPAGE_DELETE_ERROR" => "Вы не можете удалить главную страницу", //deletefile
 "NO_ZIPARCHIVE" => "ZipArchive расширение не установлено. Невозможно продолжать", //zip
 "REDIRECT_MSG"=> "Если Ваш браузер не перенаправляет вас, нажмите <a href=\"%s\">здесь</a>", //basic
@@ -461,7 +471,7 @@ $i18n = array(
 "DISABLE" 				=> "Отключить", //plugins.php
 "NO_THEME_SCREENSHOT" => "Нет скриншота темы", //theme.php
 "UNSAVED_INFORMATION" => "Вы собираетесь покинуть эту страницу и потеряете все несохраненные данные.", //edit.php
-"BACK_TO_WEBSITE" => "Перейти на сайт", //index & resetpassword
+"BACK_TO_WEBSITE" => "Вернуться на сайт", //index & resetpassword
 "SUPPORT_FORUM" => "Форум поддержки", //support.php
 "FILTER" => "Фильтр", //pages.php
 "UPLOADIFY_BUTTON" => "Загрузка файлов", //upload.php
@@ -477,31 +487,33 @@ $i18n = array(
 "FILE_SIZE" => "Размер", //multiple tr header rows
 "ARCHIVE_DATE" => "Архив", //archive.php
 "CKEDITOR_LANG" => "ru",
+
 # new to 3.1 
 "XML_INVALID" => "Недопустимый XML", //template-functions.php
 "XML_VALID" => "Действительный XML",
 "UPDATE_AVAILABLE" => "Обновите до ", //plugins.php
 "STATUS" => "Статус", //plugins.php
-"NORMAL" => "Нормальная", //edit.php
-"REMAINING" => "символов осталось", //edit.php
 "CLONE" => "Клон", //edit.php
 "CLONE_SUCCESS" => "Успешно создан %s", //pages.php
 "COPY" => "Копировать", //pages.php
 "CLONE_ERROR" => "Проблема с попыткой клонировать <b>%s</b>",  //pages.php
 "AUTOSAVE_NOTIFY" => 'Страница автосохранения на', //edit.php
 "MENU_MANAGER" => '<em>М</em>еню менеджер', //edit.php
-"GET_PLUGINS_LINK" => 'Выбрать плагины',
+"GET_PLUGINS_LINK" => 'Скачать плагины',
 "SITEMAP_REFRESHED" => "Карта сайта обновлена", //edit.php
 "LOG_FILE_EMPTY" 		=> 	"Этот файл журнала пуст", //log.php
-"SHARE" 		=> 	"Участие", //footer.php
+"SHARE" 		=> 	"Порекомендуйте", //footer.php
 "NO_PARENT" => "Ни один родитель", //edit.php
-"ADDITIONAL_ACTIONS" => "Другие акции", //edit.php
+"REMAINING" => "символов осталось", //edit.php
+"NORMAL" => "Нормальная", //edit.php
 "ERR_CANNOT_DELETE" => "Не удается удалить %s. Пожалуйста, сделайте это вручную.", //common.php
+"ADDITIONAL_ACTIONS" => "Other Actions", //edit.php
 "ITEMS" => "шт.",
 "SAVE_MENU_ORDER" => "Сохранить порядок пунктов меню", //menu-manager.php
 "MENU_MANAGER_DESC" => "Перетащите пункты меню и расставьте их в любом порядке, затем нажмите <strong>'Сохранить порядок пунктов меню'</strong>.", //menu-manager.php
 "MENU_MANAGER_SUCCESS" => "Порядок пунктов меню сохранен.", //menu-manager.php
 "NOT_SAVE" => "Страница содержит несохраненные изменения",
+
 /* 
  * For: api related pages
  */
