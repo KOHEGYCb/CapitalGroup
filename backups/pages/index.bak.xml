@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Mon, 24 Jul 2017 12:51:46 +0300</pubDate><title><![CDATA[Главная]]></title><url><![CDATA[index]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Главная]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[home.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;!-- Slider --&gt;
+<item><pubDate>Mon, 11 Sep 2017 12:42:39 +0300</pubDate><title><![CDATA[Главная]]></title><url><![CDATA[index]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Главная]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[home.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;!-- Slider --&gt;
 &lt;div class=&quot;slider&quot;&gt;
 	&lt;div&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/CapitalGroup/data/uploads/slider/slide_01.jpg&quot; /&gt;&lt;/div&gt;
 
@@ -12,22 +12,35 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
 &lt;h2&gt;Capital Group&lt;/h2&gt;
 
 &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Группа компаний «Столица» имеет почти 30-ти летний опыт работы в сфере экспертизы и консультационных услуг на международном уровне. Конкурентным преимуществом команды является знание международных стандартов, современных технологий и иностранных языков. Компания обладает обширными связями в большинстве мировых центров бизнеса и финансов. «Столица» участвовала в создании ряда финансовых институтов и бирж в России(5) и Беларуси(3), осуществлении международных проектов ООН, ЕС, Всемирного банка, Ноу-хау Фонда.&lt;/p&gt;
+&lt;!--
+&lt;hr /&gt;--&gt;
+&lt;div class=&quot;home_tel&quot;&gt;&lt;!--  contacts  --&gt;
+	&lt;div class=&quot;contacts&quot;&gt;
+		&lt;ul&gt;
+			&lt;li&gt;
+				&lt;h2&gt;Контактная информация&lt;/h2&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;span&gt;Адрес: 220123, Республика Беларусь, г. Минск, Победителей 27&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;span&gt;Телефон: +375 29 180-10-30&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;span&gt;e-mail: examle@ex.ple&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;span&gt;e-mail для предложений по сотрудничеству: предложения по электронной почте, убедительная просьба не звонить.&lt;/span&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;!-- Form --&gt;
 
-&lt;hr /&gt;&lt;!-- Form --&gt;
-&lt;form action=&quot;#&quot; class=&quot;contact_form&quot; method=&quot;post&quot; name=&quot;contact_form&quot;&gt;
-&lt;ul&gt;
-	&lt;li&gt;
-		&lt;h2&gt;Напишите нам&lt;/h2&gt;
-	&lt;/li&gt;
-	&lt;li&gt;&lt;label for=&quot;name&quot;&gt;Имя:&lt;/label&gt; &lt;input placeholder=&quot;Ваше имя&quot; required=&quot;&quot; type=&quot;text&quot; /&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt; &lt;input name=&quot;email&quot; placeholder=&quot;Email&quot; required=&quot;&quot; type=&quot;email&quot; /&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;label for=&quot;message&quot;&gt;Сообщение:&lt;/label&gt;&lt;textarea cols=&quot;40&quot; name=&quot;message&quot; required=&quot;&quot; rows=&quot;6&quot;&gt;&lt;/textarea&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;button class=&quot;submit&quot; type=&quot;submit&quot;&gt;Отправить&lt;/button&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/form&gt;
+	&lt;form action=&quot;#&quot; class=&quot;contact_form&quot; method=&quot;post&quot; name=&quot;contact_form&quot;&gt;
+	&lt;ul&gt;
+		&lt;li&gt;
+			&lt;h2&gt;Напишите нам&lt;/h2&gt;
+		&lt;/li&gt;
+		&lt;li&gt;&lt;label for=&quot;name&quot;&gt;Имя:&lt;/label&gt; &lt;input placeholder=&quot;Ваше имя&quot; required=&quot;&quot; type=&quot;text&quot; /&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt; &lt;input name=&quot;email&quot; placeholder=&quot;Email&quot; required=&quot;&quot; type=&quot;email&quot; /&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;label for=&quot;message&quot;&gt;Сообщение:&lt;/label&gt;&lt;textarea cols=&quot;40&quot; name=&quot;message&quot; required=&quot;&quot; rows=&quot;6&quot;&gt;&lt;/textarea&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;button class=&quot;submit&quot; type=&quot;submit&quot;&gt;Отправить&lt;/button&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/form&gt;
+&lt;/div&gt;
 &lt;!-- Form end --&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>

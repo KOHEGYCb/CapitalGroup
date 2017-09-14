@@ -109,10 +109,12 @@
 
 .slider {
     position: relative;
-    padding-bottom: 30px;
+/*    padding-bottom: 30px;*/
     background: #444;
+/*
     padding-left: 5px;
     padding-right: 6px;
     padding-top: 5px;
-    top: 10px;
+    top: 0px;
+*/
 }

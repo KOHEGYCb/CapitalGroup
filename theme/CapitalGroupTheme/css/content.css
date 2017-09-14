@@ -2,18 +2,70 @@
     margin: 0;
     padding: 0;
     margin: auto;
-    width: 90%;
-    background: rgba(200, 200, 200, .7);
-    min-height: calc(100% - 38px);
+    width: 85%;
+/*    background: rgba(220, 220, 220, 1);*/
+    min-height: calc(100% - 88px);
     padding-left: 15px;
     padding-right: 15px;
-    border-left: 1px solid #666;
-    border-right: 1px solid #666;
+/*    border-left: 1px solid #666;*/
+/*    border-right: 1px solid #666;*/
     position: relative;
-    top: 38;
+    top: 50;
     color: inherit;
 }
+/*
 .content>h2{
     margin: 0;
     padding: 0;
+}
+*/
+
+.contacts{
+/*    border: 1px solid red;*/
+    width: 50%;
+    position: relative;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    float: left;
+/*    border-right: 1px solid #777;*/
+}
+.home_tel{
+/*    border: 1px solid black;*/
+/*    float: left;*/
+}
+.contacts>ul{
+    width: 100%;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+
+}
+.contacts>ul>li{
+/*    font-size: 9px;*/
+    padding: 14px;
+    padding-left: 50px;
+    
+/*    border-bottom: 1px solid #eee;*/
+    position: relative;
+}
+.contacts>ul>li:first-child{
+    padding: 12px;
+/*    border-top: 1px solid #777;*/
+    border-bottom: 1px solid transparent;
+}
+.contacts>ul>li>ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contacts>ul>li>ul>li{
+    margin: 5px 0 0 0;
+}
+.contacts h2{
+    font-size: 24px;
+    margin: 0;
+    display: inline;
+/*    padding: 0;*/
 }

@@ -4,8 +4,14 @@
     padding: 0;
     width: 200px;
     height: 38px;
-    background: url(../images/logo.png) rgba(180, 180, 180, .9);
-    position: fixed;
+    background: url(../images/logo.png) rgba(220, 220, 220, .9);
+    position: absolute;
     z-index: 100;
+    top: 50;
+    left: 7.5%;
+}
+
+#logo.fixed{
+    position: fixed;
     top: 0;
 }

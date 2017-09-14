@@ -23,5 +23,11 @@
 <!-- page content end-->
 
 <!-- footer -->
-<div class="footer"></div>
+<div class="footer">
+    <ul>
+<!--        <li><span></span></li>-->
+        <li><span>Copyright Capital Group 1997-2017</span></li>
+    </ul>
+
+</div>
 <!--  footer end  -->

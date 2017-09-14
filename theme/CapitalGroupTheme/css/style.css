@@ -1,26 +1,54 @@
-html,body{
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
+    /*    overflow-x: hidden;*/
 }
+
 body {
-/*
+    /*
     background-image: url(../images/background.jpg);
     background-size: 100%;
 */
-    background:#494949 url(../images/background.jpg) top center no-repeat fixed;
-    background-size:cover;
-   -moz-background-size:cover;
-   -webkit-background-size:cover;
-   -o-background-size:cover;
-   width:100%;
+    /*    background:#494949 url(../images/background.jpg) top center no-repeat fixed;*/
+    background-color: #FFF;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
 
+h2 {
+    padding: 0;
+    margin: 10px 0 0 0;
+}
 
-p{
+p {
     font-family: Arial;
     text-align: justify;
     color: #222;
-    font-size: 20px;    
+    font-size: 20px;
+}
+
+.list>li>span {
+    font-family: Arial;
+    text-align: justify;
+    color: #222;
+    font-size: 18px;
+    margin: 10px;
+    padding: 2px;
+    display: block;
+    text-align: justify;
 }

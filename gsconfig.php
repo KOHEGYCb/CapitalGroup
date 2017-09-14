@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 /**
  * GSConfig
@@ -129,7 +128,7 @@ define('GSSUPPRESSERRORS',true);
 # define('GSFORMATXML',true);
 
 ?>
-=======
+
 <?php
 /**
  * GSConfig
@@ -260,4 +259,3 @@ define('GSSUPPRESSERRORS',true);
 # define('GSFORMATXML',true);
 
 ?>
->>>>>>> origin/Dmitry

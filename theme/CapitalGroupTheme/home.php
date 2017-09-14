@@ -17,8 +17,12 @@
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/preloader.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/footer.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/form.css">
+    <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/header.css">
+
 
     <script type="text/javascript" src="<?php get_theme_url(); ?>/js/preloader.js"></script>
+    
+
 
 
 
@@ -30,6 +34,9 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="<?php get_theme_url(); ?>/jquery-1.12.0.min.js"></script>
     <script type="text/javascript" src="<?php get_theme_url(); ?>/js/slick.js"></script>
+    
+    
+    <script type="text/javascript" src="<?php get_theme_url(); ?>/js/menu.js"></script>
 
     <script>
         $(document).ready(function() {
