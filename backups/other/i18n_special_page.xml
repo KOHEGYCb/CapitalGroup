@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specialpage><name>page</name><title><![CDATA[Страница]]></title><parent>deyatelnost</parent><tags><![CDATA[konsal]]></tags><slug>kons</slug><template><![CDATA[template.php]]></template><menu/><headercomponent/><defaultcontent><![CDATA[]]></defaultcontent><fields/></specialpage>

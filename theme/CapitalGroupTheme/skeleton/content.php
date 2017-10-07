@@ -1,6 +1,7 @@
 <!-- Preloader -->
 <div id="preloader" class="preloader">
     <div id="loader" class="loader"></div>
+    <div id="loaderText"></div>
 </div>
 <!-- Preloader end -->
 
@@ -25,8 +26,8 @@
 <!-- footer -->
 <div class="footer">
     <ul>
-<!--        <li><span></span></li>-->
-        <li><span>Copyright Capital Group 1997-2017</span></li>
+        <!--        <li><span></span></li>-->
+        <li>Copyright Capital Group 1997-2017</li>
     </ul>
 
 </div>

@@ -1,0 +1,30 @@
+.lang{
+    z-index: 10001;
+/*    border: 1px solid red;*/
+    display: block;
+    position: absolute;
+    width: 75px;
+    right: 0;
+    top: 5px;
+}
+.lang a{
+    display: block;
+    z-index: 10001;
+    float: left;
+/*    border: 1px solid green;*/
+    width: 20px;
+    height: 15px;
+    padding: 5px;
+    margin-left: 3px;
+}
+.lang_fixed{
+    position: fixed;
+    top: 5px;
+    right: 7.5%;
+}
+.lang>.ru{
+    background: url(../images/rus.png);
+}
+.lang>.en{ 
+    background-image: url(../images/eng.png);
+}

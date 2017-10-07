@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Thu, 05 Oct 2017 10:44:03 +0300</pubDate><title><![CDATA[Консалтинг]]></title><url><![CDATA[konsalting-1]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Ron]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[deyatelnost]]></parent><content><![CDATA[&lt;div id=&quot;dop_menu&quot;&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;/div&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href=&quot;#nav1&quot;&gt;Основные принципы работы&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#nav2&quot;&gt;Антикризисное управление&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#nav3&quot;&gt;Подготовка инвестиционных проектов&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;navigation&quot; id=&quot;nav1&quot;&gt;&amp;nbsp;&lt;/div&gt;
+
+&lt;h2&gt;Консалтинг&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Основные принципы работы “Столица” в стратегическом консалтинге:&lt;/h2&gt;
+
+&lt;div class=&quot;anim_block&quot;&gt;
+	&lt;div&gt;&lt;img alt=&quot;&quot; src=&quot;theme/CapitalGroupTheme/images/konsalting/img1.jpg&quot; /&gt;
+		&lt;div class=&quot;text&quot;&gt;&lt;span&gt;Профессиональная и этическая ответственность перед клиентами&lt;/span&gt;&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div&gt;&lt;img alt=&quot;&quot; src=&quot;theme/CapitalGroupTheme/images/konsalting/img2.jpg&quot; /&gt;
+		&lt;div class=&quot;text&quot;&gt;Комплексный подход к проектам на основе глобальной методологии и специфики регионального рынка&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div&gt;&lt;img alt=&quot;&quot; src=&quot;theme/CapitalGroupTheme/images/konsalting/img3.jpg&quot; /&gt;
+		&lt;div class=&quot;text&quot;&gt;Высокая квалификация и опыт консультантов для решения задач, поставленных клиентом&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Группа компаний “Столица” является одной из немногих консалтинговых компаний, которая предоставляет полный перечень услуг – от операционных управленческих решений до стратегического развития – и предлагает комплексный подход к управлению проектами:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span&gt;Разработка стратегий всех уровней;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Разработка функциональных стратегий с учетом корпоративной стратегии;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Формирование политики компании на основе разработанной стратегии;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Особенности применяемой методики:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span&gt;При разработке функциональных стратегий формируется матрица стратегических направлений развития;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Разработка финансовой и инвестиционных стратегий осуществляется с использованием методов SWOT и SNW-анализа, а также интегрального анализа Du Point;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Разработка финансовой и инвестиционной стратегий включает рекомендации по тактике управления финансами и инвестиционным портфелем компании.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;navigation&quot; id=&quot;nav2&quot;&gt;&amp;nbsp;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2&gt;Антикризисное управление&lt;/h2&gt;
+
+&lt;p&gt;Предприятиям всех форм собственности и предпринимателям предлагаем услуги по досудебному оздоровлению, санации и ликвидации субъектов хозяйствования.&lt;/p&gt;
+
+&lt;p&gt;Профессионалы помогут Вам в стратегическом управлении бизнесом и решении проблем неплатежеспособности.&lt;/p&gt;
+
+&lt;p&gt;Группа компаний &quot;Столица&quot; осуществляет деятельность по антикризисному управлению с 2000 года. За это время процедура банкротства была осуществлена нами на 35 предприятиях различной формы собственности.&lt;/p&gt;
+
+&lt;p&gt;Нами проводится разработка антикризисной программы и построение риск-менеджмента на предприятии на основе проведенной работы в различных отраслях в Беларуси, России, Америке.&lt;/p&gt;
+
+&lt;div class=&quot;navigation&quot; id=&quot;nav3&quot;&gt;&amp;nbsp;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2&gt;Подготовка инвестиционных проектов&lt;/h2&gt;
+
+&lt;p&gt;Опыт нашей работы и особенности применяемой методики в зависимости от отраслевой работы представлены в следующих разделах:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span&gt;Агропромышленный комплекс;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Лесная и деревообрабатывающая отрасль;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Легкая промышленность;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Услуги населению;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Транспорт и коммуникации;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Финансовый и банковский сектор&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Группа компаний “Столица” в инвестиционной деятельности берет на себя обязательства полного цикла: от разработки проекта до его внедрения и сопровождения.&lt;/p&gt;
+
+&lt;p&gt;Работа с инвесторами включает несколько стадий:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span&gt;формирование презентационных материалов;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;участие в выставках / ярмарках и прочих мероприятиях;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;организация участия в соответствующих мероприятиях;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;поддержка рекламных публикаций;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;личные встречи с потенциальными инвесторами;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;переговоры с инвесторами.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><meta><![CDATA[_special_deyatelnost]]></meta><special>deyatelnost</special><creDate>Wed, 04 Oct 2017 23:52:00 +0300</creDate><user><![CDATA[admin]]></user></item>

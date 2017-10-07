@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 26 Sep 2017 00:26:20 +0300</pubDate><title><![CDATA[Contacts]]></title><url><![CDATA[kontakty_en]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><content><![CDATA[&lt;h2&gt;Contacts&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Address:&lt;/strong&gt; Republic of Belarus, 220004 Minsk, Pobediteley 23 K1 500&lt;br /&gt;
+	&lt;br /&gt;
+	Biryuk Vladimir Grigorievich -&amp;nbsp; The Director GK &quot;Capital&quot;&lt;/p&gt;
+
+&lt;div class=&quot;home_tel&quot;&gt;&lt;!--  contacts  --&gt;
+	&lt;div class=&quot;contacts&quot;&gt;
+		&lt;ul&gt;
+			&lt;li&gt;
+				&lt;h2&gt;Contact information:&lt;/h2&gt;
+
+				&lt;ul&gt;
+					&lt;li&gt;&lt;span&gt;+375 17 219 48 40&lt;/span&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;span&gt;+375 29 128 04 78&lt;/span&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;span&gt;+375 29 550 25 61&lt;/span&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;span&gt;+375 17 219-48-49&lt;/span&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+
+		&lt;ul class=&quot;contacts&quot;&gt;
+			&lt;li&gt;
+				&lt;h2&gt;E-mail:&lt;/h2&gt;
+
+				&lt;ul&gt;
+					&lt;li&gt;&lt;span&gt;&lt;a href=&quot;mailto:birukv@capital.by&quot;&gt;birukv@capital.by&lt;/a&gt;&lt;a href=&quot;mailto:institute@capital.by&quot;&gt; &lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;span&gt;&lt;a href=&quot;mailto:institute@capital.by&quot;&gt;institute@capital.by&lt;/a&gt;&lt;a href=&quot;mailto:%20bvg1952@gmail.com&quot;&gt; &lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;span&gt;&lt;a href=&quot;mailto:%20bvg1952@gmail.com&quot;&gt;bvg1952@gmail.com&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;!-- Form --&gt;
+
+	&lt;form action=&quot;#&quot; class=&quot;contact_form&quot; method=&quot;post&quot; name=&quot;contact_form&quot;&gt;
+	&lt;ul&gt;
+		&lt;li&gt;
+			&lt;h2&gt;Write to us&lt;/h2&gt;
+		&lt;/li&gt;
+		&lt;li&gt;&lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt; &lt;input placeholder=&quot;Your name&quot; required=&quot;&quot; type=&quot;text&quot; /&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt; &lt;input name=&quot;email&quot; placeholder=&quot;Email&quot; required=&quot;&quot; type=&quot;email&quot; /&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;label for=&quot;message&quot;&gt;Message:&lt;/label&gt;&lt;textarea cols=&quot;40&quot; name=&quot;message&quot; required=&quot;&quot; rows=&quot;6&quot;&gt;&lt;/textarea&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;button class=&quot;submit&quot; type=&quot;submit&quot;&gt;Send&lt;/button&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/form&gt;
+&lt;/div&gt;
+&lt;!-- Form end --&gt;
+
+&lt;h2&gt;Map&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;iframe frameborder=&quot;0&quot; height=&quot;550&quot; src=&quot;https://yandex.ru/map-widget/v1/?um=constructor%3A0adda9a9621a5026aa99720479fba49e86f22874b39927e20ecd2243fcb7dc15&amp;amp;lang=ru_RU&amp;amp;scroll=true&amp;amp;source=constructor&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+]]></content><author><![CDATA[admin]]></author><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu></item>
