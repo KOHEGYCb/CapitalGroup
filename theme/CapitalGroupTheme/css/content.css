@@ -3,16 +3,18 @@
     padding: 0;
     margin: auto;
     width: 85%;
-/*    background: rgba(220, 220, 220, 1);*/
+    /*    background: rgba(220, 220, 220, 1);*/
     min-height: calc(100% - 88px);
     padding-left: 15px;
     padding-right: 15px;
-/*    border-left: 1px solid #666;*/
-/*    border-right: 1px solid #666;*/
+    /*    border-left: 1px solid #666;*/
+    /*    border-right: 1px solid #666;*/
     position: relative;
     top: 50;
     color: inherit;
 }
+
+
 /*
 .content>h2{
     margin: 0;
@@ -20,52 +22,98 @@
 }
 */
 
-.contacts{
-/*    border: 1px solid red;*/
+.contacts {
+    /*    border: 1px solid red;*/
     width: 50%;
     position: relative;
     height: 300px;
     margin: 0;
     padding: 0;
     float: left;
-/*    border-right: 1px solid #777;*/
+    /*    border-right: 1px solid #777;*/
 }
-.home_tel{
-/*    border: 1px solid black;*/
-/*    float: left;*/
+
+.home_tel {
+    /*    border: 1px solid black;*/
+    /*    float: left;*/
 }
-.contacts>ul{
+
+.contacts>ul {
     width: 100%;
     list-style-type: none;
     list-style-position: outside;
     margin: 0px;
     padding: 0px;
-
 }
-.contacts>ul>li{
-/*    font-size: 9px;*/
+
+.contacts>ul>li {
+    /*    font-size: 9px;*/
     padding: 14px;
     padding-left: 50px;
-    
-/*    border-bottom: 1px solid #eee;*/
+    /*    border-bottom: 1px solid #eee;*/
     position: relative;
 }
-.contacts>ul>li:first-child{
+
+.contacts>ul>li:first-child {
     padding: 12px;
-/*    border-top: 1px solid #777;*/
+    /*    border-top: 1px solid #777;*/
     border-bottom: 1px solid transparent;
 }
-.contacts>ul>li>ul{
+
+.contacts>ul>li>ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.contacts>ul>li>ul>li{
+
+.contacts>ul>li>ul>li {
     margin: 5px 0 0 0;
 }
-.contacts h2{
+
+.contacts h2 {
     font-size: 24px;
     margin: 0;
     display: inline;
-/*    padding: 0;*/
+    /*    padding: 0;*/
+}
+
+.anim_block {
+    position: relative;
+    width: 882;
+    height: 255px;
+    margin: auto;
+}
+
+.anim_block>div {
+    position: relative;
+    float: left;
+    margin: 30px;
+    height: 194px;
+    width: 234px;
+    background: #000;
+    overflow: hidden;
+}
+
+.anim_block .text {
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    text-align: justify;
+    transform: translate(10%, -50%) scale(0);
+    transition-duration: .3s;
+    color: #ddd;
+}
+
+.anim_block>div:hover .text {
+    transform: translate(10%, -50%) scale(1);
+}
+
+.anim_block img {
+    transition: .3s;
+}
+
+.anim_block>div:hover img {
+    opacity: .3;
+    transform: rotate(10deg) scale(1.5);
 }

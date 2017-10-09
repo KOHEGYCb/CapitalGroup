@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specialpage><name>deyatelnost</name><title><![CDATA[Деятельность]]></title><parent/><tags><![CDATA[]]></tags><slug/><template><![CDATA[]]></template><menu/><headercomponent>&lt;link rel="stylesheet" href="&lt;?php get_theme_url(); ?&gt;/css/dop_menu.css"&gt;</headercomponent><defaultcontent><![CDATA[]]></defaultcontent><fields/></specialpage>
