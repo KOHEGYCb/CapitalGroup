@@ -8,6 +8,8 @@
         <?php get_page_clean_title(); ?> -
         <?php get_site_name(); ?>
     </title>
+   <link rel="icon" href="<?php get_theme_url(); ?>/images/icon.png">
+    
     <meta charset="utf-8">
     <!--    <meta http-equiv="Refresh" content="1" />-->
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/style.css">
@@ -18,6 +20,7 @@
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/footer.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/form.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/header.css">
+    <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/lang.css">
 
 
     <script type="text/javascript" src="<?php get_theme_url(); ?>/js/preloader.js"></script>
@@ -38,14 +41,7 @@
     
     <script type="text/javascript" src="<?php get_theme_url(); ?>/js/menu.js"></script>
 
-    <script>
-        $(document).ready(function() {
-            $('.slider').slick({
-                autoplay: true
-            });
-        });
 
-    </script>
 </head>
 
 <body>
