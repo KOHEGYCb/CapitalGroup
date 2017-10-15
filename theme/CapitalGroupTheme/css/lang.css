@@ -1,30 +1,45 @@
-.lang{
+.lang {
     z-index: 10001;
-/*    border: 1px solid red;*/
+    /*    border: 1px solid red;*/
     display: block;
     position: absolute;
     width: 75px;
     right: 0;
     top: 5px;
+
+
 }
-.lang a{
+
+.lang a {
     display: block;
     z-index: 10001;
     float: left;
-/*    border: 1px solid green;*/
+    /*    border: 1px solid green;*/
     width: 20px;
     height: 15px;
     padding: 5px;
     margin-left: 3px;
 }
-.lang_fixed{
+
+.lang_fixed {
     position: fixed;
     top: 5px;
     right: 7.5%;
+    transition-duration: 0s;
+
 }
-.lang>.ru{
+
+.lang > .ru {
     background: url(../images/rus.png);
 }
-.lang>.en{ 
+
+.lang > .en {
     background-image: url(../images/eng.png);
+}
+
+@media screen and (max-width:720px) {
+    .lang {
+        top: -35px;
+        transition-duration: .5s;
+    }
 }
