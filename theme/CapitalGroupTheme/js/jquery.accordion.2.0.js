@@ -24,7 +24,7 @@
         var defaults = {
             "handle": "h3",
             "panel": ".panel",
-            "speed": 200,
+            "speed": 1000,
             "easing": "swing",
             "canOpenMultiple": false,
             "canToggle": false,
